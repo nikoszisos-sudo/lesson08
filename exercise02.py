@@ -11,3 +11,5 @@ print("Ημερομηνία γέννησης: " + person["birth_date"])
 print("Διεύθυνση          : " + person["address"])
 print("Τηλέφωνο           : " + person["phone"])
 
+
+
