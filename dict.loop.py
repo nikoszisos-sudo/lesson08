@@ -1,7 +1,7 @@
 heroes_weapons = {
     "Black Panther": "Anti-Metal Claws",
     "Wolverine": "Claws",
-    "Ultron": "Plasma Weapons",
+    "Ultron": "Plasma-Weapons",
     "Spider-Man": "Web-Shooters",
     "Beast": "Claws",
     "Venom": "Web-Shooters"
@@ -17,4 +17,4 @@ for key in sorted(heroes_weapons.keys()):
 
 print ("\nWeapons Gallery:")
 for value in set(heroes_weapons.values()):
-    print (value, end="")
+    print (value + " ", end="")
