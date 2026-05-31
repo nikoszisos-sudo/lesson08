@@ -17,4 +17,4 @@ for key in sorted(heroes_weapons.keys()):
 
 print ("\nWeapons Gallery:")
 for value in set(heroes_weapons.values()):
-    print (value + " ", end="")
+    print (value, end=", ")
