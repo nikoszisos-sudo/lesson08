@@ -50,7 +50,7 @@ family = {
     ]
 }
 
-print (family["father"]["name"])
-print (family["mother"]["name"])
+print (family["father"]["name"] + ": ", family["father"]["quotes"][randrange(0, len(family["father"]["quotes"]))])
+print (family["mother"]["name"] + ": ", family["mother"]["quotes"][randrange(0, len(family["mother"]["quotes"]))])
 for i in range(len(family["children"])):
-    print (family["children"][i]["name"])
+    print (family["children"][i]["name"] + ": ", family["children"][i]["quotes"][randrange(0, len(family["children"][i]["quotes"]))])
