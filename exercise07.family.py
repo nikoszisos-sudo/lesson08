@@ -52,6 +52,5 @@ family = {
 
 print (family["father"]["name"])
 print (family["mother"]["name"])
-print (family["children"][0]["name"])
-print (family["children"][1]["name"])
-print (family["children"][2]["name"])
+for i in range(len(family["children"])):
+    print (family["children"][i]["name"])
