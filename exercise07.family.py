@@ -50,4 +50,8 @@ family = {
     ]
 }
 
-print (family["father"]["name"], family["mother"]["name"], family["children"][0]["name"], family["children"][1]["name"], family["children"][2]["name"])
+print (family["father"]["name"])
+print (family["mother"]["name"])
+print (family["children"][0]["name"])
+print (family["children"][1]["name"])
+print (family["children"][2]["name"])
